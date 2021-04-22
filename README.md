@@ -3,13 +3,13 @@ A Java Service built with Java 8, Spring Boot 2.4.5, and Redis.
 
 ## utils (com.carbon.urlshortener.utils)
 CommonUtils.java: 
-A class that contains methods responsible for:
+A class containing methods responsible for:
 1. Generating ID (createdId())
 2. Convert ID to Base 62 String (base62Encode(long value) )
 3. Convert Base 62 String to ID
 
 ConstantUtils: 
-A class that contains static variables
+A class containing static variables
 
 
 ## controller (com.carbon.urlshortener.controller)
@@ -72,6 +72,7 @@ To test, send POST Request to localhost:8080/shortener with a body of type appli
 {
   'longUrl' : "<INSERT URL>"
 }
+Then run generated short URL that comes in response on a browser
 
 You can test from the swagger page
 The default page <http://localhost:8080/> opens Swagger UI with the API Documentation

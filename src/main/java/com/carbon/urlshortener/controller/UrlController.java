@@ -18,7 +18,6 @@ public class UrlController {
 
     private final UrlService urlService;
 
-
     @PostMapping(value = "/shortener")
     public ApiResponse<String> shortenUrl(@RequestBody @Valid UrlDTO urlDTO, HttpServletRequest request){
         return new ApiResponse<>(true,urlService.shortenUrl(request.getRequestURL().toString(), urlDTO.getLongUrl()));
