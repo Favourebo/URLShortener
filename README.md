@@ -22,7 +22,7 @@ A Spring Boot Controller responsible for:
 
 ## repository (com.carbon.urlshortener.repository)
 
-URLRepository: 
+UrlRepository: 
 A Java interface responsible for abstracting Redis(database) read/write logic
 service
 
