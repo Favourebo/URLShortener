@@ -55,6 +55,10 @@ unzip URLShortener-master.zip
 cd URLShortener-master
 ```
 
+Run Test
+```bash
+mvn test
+```
 Build you application:
 
 ```bash
