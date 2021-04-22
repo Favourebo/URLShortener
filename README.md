@@ -59,7 +59,7 @@ Run Test
 ```bash
 mvn test
 ```
-Build you application:
+Build your application:
 
 ```bash
 mvn clean install
