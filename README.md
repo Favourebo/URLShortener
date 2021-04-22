@@ -30,7 +30,8 @@ service
 
 UrlService.java:
 A Java class used to abstract URL Shortening and URL Retrieval process
-URLShortenerApplication.java
+
+## URLShortenerApplication.java
 The entry point for the Spring application
 
 
@@ -63,6 +64,7 @@ Start your application:
 
 ```bash
 mvn spring-boot:run
+```
 
 ## Use the Application
 By default the Server will run on localhost:8080/shortener
