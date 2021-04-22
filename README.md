@@ -70,7 +70,7 @@ mvn spring-boot:run
 By default the Server will run on localhost:8080/shortener
 To test, send POST Request to localhost:8080/shortener with a body of type application/json with body
 {
-  'longUrl' : '<INSERT URL>'
+  'longUrl' : "<INSERT URL>"
 }
 
 You can test from the swagger page
